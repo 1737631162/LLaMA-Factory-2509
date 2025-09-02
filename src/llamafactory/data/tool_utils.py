@@ -31,7 +31,7 @@ DEFAULT_TOOL_PROMPT = (
     "You have access to the following tools:\n{tool_text}"
     "Use the following format if using a tool:\n"
     "```\n"
-    "Action: tool name (one of [{tool_names}])\n"
+    "Action: tool name (one or more of [{tool_names}])\n"
     "Action Input: the input to the tool, in a JSON format representing the kwargs "
     """(e.g. ```{{"input": "hello world", "num_beams": 5}}```)\n"""
     "```\n"
